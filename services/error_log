@@ -1,0 +1,26 @@
+[06-Apr-2022 12:37:03 America/Toronto] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'bullchris'@'localhost' (using password: YES) in /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php:6
+Stack trace:
+#0 /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php(6): PDO->__construct('mysql:host=loca...', 'bullchris', 'ETbvBCsr')
+#1 /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php(17): require_once('/home/wkac1990/...')
+#2 /home/wkac1990/public_html/projects/easy-groceries/services/get_departments.php(7): EasyGroceries->__construct()
+#3 {main}
+  thrown in /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php on line 6
+[06-Apr-2022 12:37:33 America/Toronto] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'bullchris'@'localhost' (using password: YES) in /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php:6
+Stack trace:
+#0 /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php(6): PDO->__construct('mysql:host=loca...', 'bullchris', 'ETbvBCsr')
+#1 /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php(17): require_once('/home/wkac1990/...')
+#2 /home/wkac1990/public_html/projects/easy-groceries/services/get_products_by_cart.php(10): EasyGroceries->__construct()
+#3 {main}
+  thrown in /home/wkac1990/public_html/projects/easy-groceries/services/inc/connect_pdo.php on line 6
+[06-Apr-2022 12:48:17 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 408
+[06-Apr-2022 12:48:17 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 411
+[06-Apr-2022 12:48:17 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 414
+[06-Apr-2022 12:48:17 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 417
+[06-Apr-2022 13:41:09 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 408
+[06-Apr-2022 13:41:09 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 411
+[06-Apr-2022 13:41:09 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 414
+[06-Apr-2022 13:41:09 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 417
+[11-Apr-2022 10:55:28 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 408
+[11-Apr-2022 10:55:28 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 411
+[11-Apr-2022 10:55:28 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 414
+[11-Apr-2022 10:55:28 America/Toronto] PHP Notice:  Undefined variable: filter_id in /home/wkac1990/public_html/projects/easy-groceries/services/easy_groceries.class.php on line 417

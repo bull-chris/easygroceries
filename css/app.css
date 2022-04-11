@@ -1,0 +1,1023 @@
+/* Chris Bull - Easy Groceries CSS */
+
+/* body settings */
+body {
+    background-color: #d7ecd2;
+}
+
+/* header settings */
+header {
+    background-color: #175506;
+    padding: 2.5rem 0rem 0.5rem 0rem;
+}
+
+/* h2 settings */
+h2 {
+    color: black;
+}
+
+/* button active settings */
+.button:active {
+    background-color: #082503;
+    transform: scale(0.95);
+}
+
+/* siteLogo settings */
+.siteLogo {
+    width: 80%;
+    cursor: pointer;
+    padding-bottom: 1.5rem;
+}
+
+/* siteTitle settings */
+.siteTitle {
+    color: white;
+    margin-left: -50px;
+    padding-top: 2.2rem;
+    padding-bottom: 1.5rem;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+/* searchBarDiv settings */
+.searchBarDiv {
+    padding-top: 2.8rem;
+}
+
+/* siteSearchBar settings */
+.siteSearchBar {
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #8bc07c;
+}
+
+/* siteSearchBar placeholder settings */
+.siteSearchBar::placeholder {
+    color: #fff;
+}
+
+/* siteSearchBar focus settings */
+.siteSearchBar:focus {
+    background-color: #8bc07c;
+}
+
+/* pageTitle settings */
+.pageTitle {
+    background-color: #082503;
+    color: #fff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* header button links settings */
+.departmentButton h6, .yourCartButton svg, .signInButton svg {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+/* yourCartButton and signInButton settings */
+.yourCartButton, .signInButton {
+    text-align: right;
+}
+
+/* cartButtonTotal settings */
+#cartButtonTotal {
+    background-color: #a54d24;
+    color: #fff;
+    position: absolute;
+    margin-left: 2rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-top: -0.5rem;
+}
+
+/* signInButton h6 settings */
+.signInButton h6 {
+    text-align: right;
+}
+
+/* dropDownArrow settings */ 
+#dropDownArrow {
+    width: 12%;
+}
+
+/* department pull down menu settings */
+.departments-pullDown {
+    display: none;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    min-width: fit-content;
+    max-height: 30vh;
+    overflow-y: scroll;
+    background-color: #175506;
+    z-index: 10;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* department pull down menu list item settings */
+.departments-pullDown li {
+    /* display: none; */
+    color: white;
+    padding: 0.5rem;
+}
+
+/* department pull down menu list item settings */
+.departments-pullDown li:hover {
+    /* display: none; */
+    background-color: #082503;
+    cursor: pointer;
+}
+
+/* box site colour settings */
+.boxSiteDiv1 {
+    background-color: rgb(201, 201, 201);
+}
+
+.boxSiteDiv2 {
+    background-color: rgb(132, 132, 132);
+}
+
+.boxSiteDiv3 {
+    background-color: rgb(58, 58, 58);
+}
+
+/* department card colour settings */
+.departColour1 {
+    background-color: #db711b;
+}
+
+.departColour2 {
+    background-color: #d19f05;
+}
+
+/* bannerSlide settings */
+.bannerSlide {
+    margin-bottom: 2rem;
+    padding: 2rem 2rem;
+    background-color: #082503;
+    display: flex !important;
+    justify-content: center;
+}
+
+/* bannerSlideOne settings */
+.bannerSlideOne {
+    background-color: #082503;
+}
+
+/* bannerSlideOne settings */
+.bannerSlideTwo {
+    background-color: #a54d24;
+}
+
+/* bannerSlideOne settings */
+.bannerSlideThree {
+    background-color: #fff;
+    color: #082503;
+}
+
+/* sliderText settings */
+#sliderText {
+    padding: 3rem 0rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: white;
+}
+
+/* sliderText settings */
+#sliderTextDark {
+    padding: 3rem 0rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: #082503;
+}
+
+/* crumbTrail settings */
+.crumbTrail {
+    margin: 1rem 0rem;
+    color: black;
+    text-align: right;
+    font-size: 14px;
+}
+
+/* foodCard, foodCardMain, departmentCard settings */
+.foodCard, .foodCardMain, .departmentCard {
+    position: relative;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+/* foodCard settings */
+.foodCard {
+    padding: 2rem 1rem 0.5rem 1rem;
+    background-color: white;
+    position: relative;
+}
+
+/* foodNameSection settings */
+.foodNameSection {
+    min-height: 8rem;
+}
+
+/* foodCardMain settings */
+.foodCardMain {
+    padding: 1rem 1rem 0.5rem 1rem;
+    background-color: white;
+    position: relative;
+    margin-bottom: 1rem;
+    border: 3px #175506 solid;
+}
+
+/* dealOverlay settings */
+.dealOverlay {
+    position: absolute;
+    top: 0;
+    right: -35px;
+}
+
+/* dealOverlay img settings */
+.dealOverlay img {
+    width: 75%;
+}
+
+/* dealOverlayText settings */
+.dealOverlayText {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+/* dealText settings */
+#dealText {
+    text-align: right;
+    padding-top: 0.4rem;
+    padding-right: 0.5rem;
+    color: white;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+/* itemProducer settings */
+#itemProducer {
+    width: 75%;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/* itemName settings */
+#itemName {
+    width: 80%;
+    font-size: 18px;
+}
+
+/* itemNameMain settings */
+#itemNameMain {
+    height: 51px;
+}
+
+/* itemProducerMain settings */
+#itemProducerMain {
+    text-transform: uppercase;
+}
+
+/* itemRating settings */
+#itemRating {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+/* itemUPC settings */
+#itemUPC {
+    line-height: 3;
+    font-size: 12px;
+}
+
+/* itemPrice settings */
+#itemPrice {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* itemImage settings */
+#itemImage {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+/* descriptionLink settings */
+.descriptionLink {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* descriptionContainer settings */
+.descriptionContainer {
+    position: absolute;
+    background-color: #fff;
+    width: fit-content;
+    min-height: 315px;
+    max-height: 315px;
+    overflow-y: scroll;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem;
+    box-shadow: 0px 2px 5px #082503;
+}
+
+/* descriptionContent settings */
+.descriptionContent h3 {
+    font-weight: bold;
+}
+
+/* closeDescription settings */
+#closeDescription {
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #a54d24;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+/* quantityOptions settings */
+.quantityOptions {
+    text-align: center;
+}
+
+/* itemQuantity settings */
+#itemQuantity {
+    font-size: 22px;
+}
+
+/* foodCardButton settings */
+.foodCardButton {
+    background-color: #db711b;
+}
+
+/* plusButton & minusButton settings */
+#plusButton, #minusButton {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0px;
+    background-color: #5c2a13;
+}
+
+/* minusButton settings */
+#minusButton {
+    padding-bottom: 0.5rem;
+}
+
+/* itemCart settings */
+#itemCart {
+    background-color: #a54d24;
+}
+
+/* itemCart hover settings */
+#itemCart:hover {
+    background-color: #175506;
+}
+
+/* food card buttons active settings */
+#itemCart:active, #plusButton:active, #minusButton:active {
+    background-color: #082503;
+    transform: scale(0.95);
+}
+
+/* departmentCard settings */
+.departmentCard {
+    padding: 0.5rem 0rem 2rem 0rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+/* departmentCard hover settings */
+.departmentCard:hover #departmentCardOffer {
+    transform: scale(1.1);
+
+}
+
+/* departmentCardTitle settings */
+#departmentCardTitle {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+}
+
+/* departmentCardOffer settings */
+#departmentCardOffer {
+    background-color: rgba(38, 176, 10, 0.85);
+    padding: 0.5rem 1rem 0.25rem 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.25rem;
+    right: 2.25rem;
+    box-shadow: 0px 4px 10px #082503;
+    transition: all 0.5s;
+}
+
+/* departmentCardOffer h6 settings */
+#departmentCardOffer h6 {
+    font-size: 20px;
+}
+
+/* departmentName settings */
+#departmentName {
+    margin-top: -2rem;
+}
+
+/* loadMoreButton settings */
+.loadMoreButton {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: #175506;
+    text-align: center;
+}
+
+/* loadMoreButton hover settings */
+.loadMoreButton:hover {
+    background-color: #a54d24;
+}
+
+/* wireframe page settings */
+.eg-cart, .eg-signIn, .eg-create, .eg-payment, .eg-shipping, .eg-confirm, .eg-complete {
+    padding: 2rem 0rem;
+}
+
+/* label settings */
+label {
+    font-size: 16px;
+}
+
+/* button input settings */
+input[type="button"] {
+    background-color: #a54d24;
+}
+
+/* button input hover settings */
+input[type="button"]:hover {
+    background-color: #175506;
+}
+
+/* secondaryButton settings */
+input[type="button"].secondaryButton {
+    background-color: #5c2a13;
+}
+
+/* secondaryButton input hover settings */
+input[type="button"].secondaryButton:hover {
+    background-color: #175506;
+}
+
+/* signInSection h1 settings */
+.signInSection h1 {
+    text-align: center;
+}
+
+/* signInButtons settings */
+.actionButtons {
+    text-align: center;
+}
+
+/* perform-signIn settings */
+.perform-signIn {
+    width: 30%;
+}
+
+/* createSection h1 settings */
+.createSection h1 {
+    text-align: center;
+}
+
+/* finishAccount settings */
+.finishAccount {
+    width: 50%;
+}
+
+/* checkoutSection h1 settings */
+.checkoutSection h1 {
+    text-align: center;
+}
+
+/* remove-cart settings */
+.remove-cart {
+    color: #a54d24;
+    padding-right: 2rem;
+    transition: all 0.5s;
+}
+
+/* remove-cart settings */
+.remove-cart:hover {
+    color: #082503;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* cartProductTitles settings */
+.cartProductTitles {
+    background-color: #082503;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+    text-align: right;
+}
+
+/* cartProductInfo paragraph settings */
+.cartProductInfo p {
+    margin: 0px auto;
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+    text-align: left;
+}
+
+/* cartProductName settings */
+#cartProductName {
+    font-weight: bold;
+}
+
+/* cartProductUPC settings */
+#cartProductUPC {
+    font-size: 12px;
+}
+
+/* mobileCart settings */
+/* .mobileCart {
+    background-color: #082503;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+    padding-right: 0.5rem;
+    text-align: right;
+    display: none;
+} */
+
+/* mobileTitle settings */
+.mobileTitle {
+    display: none;
+    font-weight: bold;
+}
+
+/* cartPageItem settings */
+.cartPageItem {
+    border-bottom: 3px #082503 solid;
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+/* checkoutTotals settings */
+.checkoutTotals {
+    background-color: #8bc07c;
+    padding: 2rem 1rem;
+    border: 1px solid #082503;
+}
+
+/* money value settings */
+.untaxed-value, .tax-total, .taxed-value {
+    font-size: 20px;
+    text-align: right;
+    float: right;
+}
+
+/* confirmCheckout settings */
+.confirmCheckout {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* returnToStore settings */
+.returnToStore {
+    width: 100%;
+}
+
+/* cartImage settings */
+.cartImage {
+    box-shadow: 0px 5px 10px #082503;
+}
+
+/* cartProductInfo settings */
+.cartProductInfo {
+    padding-left: 0.5rem;
+}
+
+/* increase and decrease cart settings */
+.increase-cart, .decrease-cart {
+    width: 1.5rem;
+    padding: 0.2rem 0rem;
+    margin: 0 0.5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* to-complete settings */
+.to-complete {
+    width: 100%;
+}
+
+/* transactionDetails settings */
+.transactionDetails {
+    background-color: #8bc07c;
+    border: 3px solid #082503;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* footer settings */
+footer {
+    margin-top: 2rem;
+    background-color: #175506;
+    padding: 3rem 0rem;
+    color: white;
+}
+
+/* footerLinks settings */
+.footerLinks {
+    padding-left: 1rem;
+    color: #8bc07c;
+}
+
+/* footer sections settings */
+.about, .promotions, .additional {
+    height: 240px;
+}
+
+/* footer promotions settings */
+.promotions {
+    padding-left: 3rem;
+}
+/* footer additional content settings */
+.additional {
+    padding-left: 7rem;
+}
+
+/* copyrighr settings */
+.copyright {
+    text-align: right;
+}
+
+/** SLICK SETTINGS */
+
+.slick-dots {
+    position: absolute;
+    bottom: 3rem;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li button::before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .75;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/* tablet css settings */
+@media screen and (max-width: 1024px) {
+    /* siteContent settings */
+    .siteContent {
+        padding: 0rem 1rem;
+    }
+
+    /* h2 settings */
+    h2 {
+        font-size: 36px;
+    }
+
+    /* h3 settings */
+    h3 {
+        font-size: 24px;
+    }
+
+    /* siteLogo settings */
+    .siteLogo {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    /* siteTitle settings */
+    .siteTitle {
+        margin-left: 0px;
+        padding-top: 5rem;
+        font-size: 50px;
+    }
+
+    /* crumbTrail settings */
+    .crumbTrail {
+        font-size: 10px;
+    }
+
+    /* crumbArrow settings */
+    #crumbArrow {
+        color: #a54d24;
+        font-weight: bold;
+    }
+
+    /* departmentName settings */
+    #departmentName {
+        margin-top: 0rem;
+    }
+
+    /* header button links settings */
+    .departmentButton h6, .yourCartButton svg, .signInButton svg {
+        margin-top: 0px;
+    }
+
+    /* departmentCardOffer settings */
+    #departmentCardOffer {
+        left: 2.8rem;
+    }
+
+    /* splashSlider settings */
+    .splashSlider {
+        margin-bottom: 2rem;
+    }
+
+    /* sliderText settings */
+    #sliderText {
+        padding: 1rem 0rem;
+        text-align: left;
+        color: white;
+    }
+
+    /* itemProducer settings */
+    #itemProducer {
+        min-height: 65px;
+    }
+
+    /* itemName settings */
+    #itemName {
+        min-height: 60px;
+    }
+
+    /* itemCart settings */
+    #itemCart {
+        margin-left: 0px;
+    }
+
+    /* itemQuantity settings */
+    #itemQuantity {
+        font-size: 22px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* descriptionContainer settings */
+    .descriptionContainer {
+        min-height: 340px;
+        max-height: 340px;
+    }
+
+    /* footer settings */
+    footer {
+        margin-top: 2rem;
+        background-color: #175506;
+        padding: 1rem 0rem;
+        color: white;
+    }
+
+    /* footer sections settings */
+    .about, .promotions, .additional {
+        height: fit-content;
+    }
+
+    /* footer promotions settings */
+    .promotions {
+        padding-left: 0rem;
+    }
+    /* footer additional content settings */
+    .additional {
+        padding-left: 0rem;
+    }
+
+    /* copyrighr settings */
+    .copyright {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    /* splashSlider img settings */
+    .splashSlider img {
+        width: 100%;
+    }
+
+    /* dealOverlay settings */
+    .dealOverlay {
+        right: 0px;
+    }
+
+    /* dealOverlay img settings */
+    .dealOverlay img {
+        width: 100%;
+    }
+
+    /* dealOverlayText settings */
+    .dealOverlayText {
+        top: 5px;
+    }
+}
+
+/* mobile css settings */
+@media screen and (max-width: 640px) {
+    /* header settings */
+    header {
+        padding: 0rem 1rem;
+    }
+    /* siteContent settings */
+    .siteContent {
+        padding: 0rem 1rem;
+    }
+
+    /* h2 settings */
+    h2 {
+        font-size: 28px;
+    }
+
+    /* siteLogo settings */
+    .siteLogo {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* siteTitle settings */
+    .siteTitle {
+        margin-left: 0px;
+        padding: 1rem 0rem 2rem 0rem;
+        padding-top: 0rem;
+        padding-bottom: 1rem; 
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* crumbTrail settings */
+    .crumbTrail {
+        font-size: 10px;
+    }
+
+    /* departmentName settings */
+    #departmentName {
+        margin-top: 0rem;
+    }
+
+    /* departmentButton h6 settings */
+    .departmentButton h6 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 1rem;
+    }
+
+    /* yourCartButton svg and signInButton svg settings */
+    .yourCartButton svg, .signInButton svg {
+        margin-top: 0px;
+    }
+
+    /* yourCartButton h6, signInButton settings */
+    .yourCartButton, .signInButton {
+        text-align: right;
+    }
+
+    /* departmentCardOffer settings */
+    #departmentCardOffer {
+        left: 2.8rem;
+    }
+
+    /* splashSlider settings */
+    .splashSlider {
+        margin-bottom: 2rem;
+    }
+
+    /* sliderText settings */
+    #sliderText {
+        padding: 1rem 0rem;
+        text-align: left;
+        color: white;
+    }
+
+    /* itemCart settings */
+    #itemCart {
+        margin-left: 0px;
+    }
+
+    /* itemQuantity settings */
+    #itemQuantity {
+        font-size: 22px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* descriptionContainer settings */
+    .descriptionContainer {
+        min-height: 250px;
+        max-height: 265px;
+    }
+
+    /** CART PAGE SETTINGS */
+
+    /* mobileCart settings */
+    .mobileCart {
+        display: none;
+    }
+
+    /* mobileTitle settings */
+    .mobileTitle {
+        display: unset;
+        font-size: 18px;
+        float: left;
+        color: #082503;
+    }
+
+    /* increase-cart settings */
+    .increase-cart {
+        margin-right: 0rem;
+    }
+
+    /* decrease-cart settings */
+    .decrease-cart {
+        margin-left: 0rem;
+    }
+
+    /* remove-cart settings */
+    .remove-cart {
+        padding-right: 0rem;
+    }
+
+    /* footer settings */
+    footer {
+        margin-top: 2rem;
+        background-color: #175506;
+        padding: 1rem 1rem;
+        color: white;
+        font-size: 18px;
+    }
+
+    /* footer h5 settings */
+    footer h5 {
+        font-size: 22px;
+    }
+
+    /* footer sections settings */
+    .about, .promotions, .additional {
+        height: fit-content;
+    }
+
+    /* footer promotions settings */
+    .promotions {
+        padding-left: 0rem;
+    }
+    /* footer additional content settings */
+    .additional {
+        padding-left: 0rem;
+    }
+
+    /* copyrighr settings */
+    .copyright {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    /* splashSlider img settings */
+    .splashSlider img {
+        width: 100%;
+    }
+
+    /* dealOverlay settings */
+    .dealOverlay {
+        right: 0px;
+    }
+
+    /* dealOverlay img settings */
+    .dealOverlay img {
+        width: 100%;
+    }
+
+    /* dealOverlayText settings */
+    .dealOverlayText {
+        top: 5px;
+    }
+}
